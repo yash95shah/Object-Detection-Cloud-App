@@ -227,20 +227,7 @@ p, li {
 
 
 	<!-- Contact Section -->
-	<section class="page-section grad" id="contact"
-		style="color: white !important">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<h2 class="mt-0">Provide you feedback</h2>
-					<hr class="divider my-4">
-					<p class="mb-5">Liked project? Send feedback!!! Didn't liked
-						project? Send feedback!!!</p>
-				</div>
-			</div>
 
-		</div>
-	</section>
 
 	<!-- Footer -->
 	<footer class="bg-light py-5 grad">
