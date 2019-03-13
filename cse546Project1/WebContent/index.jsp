@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Data Visualization - Assign2-Hardik Shah</title>
+<title>Assignment 1 Cloud Computing Project Frontend</title>
 
 <!-- Font Awesome Icons -->
 <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
