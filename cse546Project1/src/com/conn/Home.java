@@ -27,8 +27,10 @@ public class Home extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println(" get method called");
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		System.out.println("get method called");
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		doPost(request, response);
+		
 	}
 
 	/**
@@ -36,7 +38,15 @@ public class Home extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		private int requests=0;
+		private boolean isServiced = false;
+		while(requests <= 20)
+		{
+			System.out.println("Initiating request service");
+			doGet(request, response);
+			requests ++;
+		}
+		
 	}
 
 }
